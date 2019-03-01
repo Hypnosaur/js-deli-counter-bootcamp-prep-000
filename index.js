@@ -24,7 +24,7 @@ function currentLine(line){
       string = string + `${i+1}. ${line[i]},`;
       i++
     }
-    while (i < line.length);
+    while (i < line.length -1);
   }
   string = string + `${line.length}. ${line[i]}`
   return string;
