@@ -18,10 +18,10 @@ function currentLine(line){
   if (line.length === 0){
     return "The line is currently empty.";
   } else {
-    var i = 1;
+    var i = 0;
     var string = `The line is currently: `;
     do {
-      string = string + `${i}. ${line[i-1]} `;
+      string = string + `${i+1}. ${line[i]} `;
       i++
     }
     while (i < line.length);
