@@ -21,7 +21,7 @@ function currentLine(line){
     var i = 1;
     var string = `The line is currently: `;
     do {
-      string = string + `${i}. ${name[i-1]} `;
+      string = string + `${i}. ${line[i-1]} `;
       i++
     }
     while (i < line.length);
