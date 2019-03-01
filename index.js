@@ -26,5 +26,6 @@ function currentLine(line){
     }
     while (i < line.length);
   }
+  string = string + `${line.length}. ${line[i]}`
   return string;
 }
